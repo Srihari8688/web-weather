@@ -40,11 +40,11 @@ const WeatherCard = ({ city }) => {
       <h2 className="text-2xl font-bold">{weather.name}</h2>
       <p className="text-lg capitalize">{weather.weather[0].description}</p>
       <p className="text-5xl font-semibold my-2">{weather.main.temp}°C</p>
-    {/* <img
+    <img
     src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
     alt="Weather Icon"
     className="mx-auto"
-  /> */}
+  /> 
       <div className="mt-4 grid grid-cols-2 gap-4 text-sm">
         <p className="bg-white/20 p-2 rounded-lg">💨 Wind: {weather.wind.speed} m/s</p>
         <p className="bg-white/20 p-2 rounded-lg">💧 Humidity: {weather.main.humidity}%</p>
