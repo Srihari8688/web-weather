@@ -2,7 +2,7 @@
 
   "name": "weather",
 
-  "homepage": "https://Srihari8688.github.io/web-weather/",
+  "homepage": "https://Srihari8688.github.io/WeatherApp/",
 
   "version": "0.0.0",
 
@@ -17,7 +17,9 @@
     "lint": "eslint .",
 
     "preview": "vite preview",
+
     "predeploy": "npm run build",
+
     "deploy": "gh-pages -d dist"
 
   },

@@ -6,10 +6,9 @@ const SearchBar = ({ onSearch }) => {
   const handleSearch = () => {
     if (city.trim() !== "") onSearch(city);
   };
-
   return (
     // <div className="flex space-x-2">
-    <div className="main" style={{"display":"inline"}}>
+    <div className="search" style={{"display":"inline"}}>
       <input
         type="text"
         placeholder="Enter city name"
